@@ -1,9 +1,9 @@
 ---
 apiVersion: v1
 kind: Service
-namespace: chat-app
 metadata:
   name: chat-app
+  namespace: chat-app
 spec:
   ports:
     - port: 80
