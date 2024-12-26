@@ -11,7 +11,8 @@ spec:
       app: backend
   template:
     metadata:
-      app: backend
+      labels:
+        app: backend
     spec:
       containers:
         - env:
