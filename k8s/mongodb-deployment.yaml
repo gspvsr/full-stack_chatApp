@@ -17,9 +17,9 @@ spec:
       containers:
         - env:
             - name: MOGO_INITDB_ROOT_USERNAME
-              value: root
+              value: mongoadmin
             - name: MOGO_INITDB_ROOT_PASSWORD
-              value: root
+              value: secret
           image: mongo
           name: chatapp-mongodb
           ports:
