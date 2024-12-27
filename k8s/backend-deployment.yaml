@@ -26,7 +26,7 @@ spec:
                   key: jwt
                   name: chatapp-secret
             - name: PORT
-              value: 5001
+              value: '5001'
           image: gspvsr/chat-app-backend:latest
           name: chatapp-backend
           ports:
