@@ -24,7 +24,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   key: jwt
-                  name: chatapp-secret
+                  name: chat-app-secret
             - name: PORT
               value: '5001'
           image: gspvsr/chat-app-backend:latest
